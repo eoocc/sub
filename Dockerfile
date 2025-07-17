@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm install
 
-EXPOSE 7788/tcp
+EXPOSE 7860/tcp
 
 CMD ["npm", "start"]
