@@ -11,7 +11,7 @@ import yaml from 'js-yaml';
 import { kvGet, kvPut } from './src/kvSqlite.js';
 
 const app = express();
-const PORT = process.env.PORT || 7788;
+const PORT = process.env.PORT || 7860;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
